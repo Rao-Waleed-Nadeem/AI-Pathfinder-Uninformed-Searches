@@ -29,7 +29,7 @@ CELL  = 40         # Pixel size of each cell
 DELAY = 80         # Milliseconds between each animation step
 
 # ─────────────────────────────────────────────
-#  COLORS  (easy to remember for viva)
+#  COLORS  
 # ─────────────────────────────────────────────
 COLOR = {
     "empty":    "#FFFFFF",   # white      – free cell
