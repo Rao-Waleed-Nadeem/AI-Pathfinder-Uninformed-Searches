@@ -1,7 +1,17 @@
 """
-AI 2002 - Artificial Intelligence (Spring 2026)
-Assignment 1 - Question 7: Uninformed Search in a Grid Environment
-AI Pathfinder with GUI Visualization
+AI Pathfinder Uninformed Search Visualization
+Author: Rao Waleed Nadeem (23F-0628) 
+This application visualizes various uninformed search algorithms (BFS, DFS, UCS, DLS, IDDFS, Bidirectional) on a grid-based environment. Users can draw walls, set start and target points, and watch how each algorithm explores the grid to find a path from start to target.
+Key Features:
+- Interactive grid where users can place walls, start (S), and target (T) points
+- Multiple algorithms to choose from, each with its own exploration strategy
+- Real-time visualization of explored nodes, frontier, and final path
+Instructions:
+1. Click on the grid to draw walls (dark cells) that block movement.
+2. Use the "Start" and "Target" buttons to place the S and T points
+3. Select an algorithm from the dropdown menu.
+4. Press "RUN" to see the algorithm in action. Watch how it explores the grid and finds a path.
+5. Press "RESET" to clear the grid and start over.
 """
 
 import tkinter as tk
